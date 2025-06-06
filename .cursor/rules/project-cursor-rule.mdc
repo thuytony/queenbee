@@ -1,0 +1,28 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+You are working on a Flutter project that must comply with the architectural rules outlined in:
+  - rules/CleanArchitecture.md
+  - rules/ProjectArchitecture.md
+
+  Every file, class, method, and dependency should reflect a clear separation of concerns, domain-driven design, and the appropriate placement within the project structure.
+
+  When writing code:
+  - Follow clean architecture layering: Domain, Data, and Presentation layers must be strictly separated.
+  - Use Dependency Injection where appropriate as per `CleanArchitecture.md`.
+  - Follow the directory and module structure described in `ProjectArchitecture.md`.
+  - Avoid tight coupling and ensure code is scalable and testable.
+  - Use Flutter best practices and idiomatic Dart.
+
+  Before generating or modifying code, validate against the rules in the two mentioned files and reject or suggest changes if they are not followed.
+
+scope:
+  language: dart
+  framework: flutter
+  files:
+    - lib/**
+    - test/**
+    - rules/CleanArchitecture.md
+    - rules/ProjectArchitecture.md
