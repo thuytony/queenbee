@@ -27,17 +27,17 @@ class Character with EquatableMixin {
 
   @override
   List<Object?> get props => [
-        id,
-        name,
-        status,
-        species,
-        type,
-        gender,
-        image,
-        episode,
-        url,
-        created,
-      ];
+    id,
+    name,
+    status,
+    species,
+    type,
+    gender,
+    image,
+    episode,
+    url,
+    created,
+  ];
 
   bool get isAlive => status == 'Alive';
 }
